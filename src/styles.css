@@ -21,6 +21,7 @@ body {
   font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 20px;
   gap: 20px;
+  height: 100vh;
 }
 
 header {
@@ -30,13 +31,14 @@ header {
   padding: 1rem;
   align-items: center;
   border-radius: var(--border-radius);
+  gap: 1rem;
 }
 
 header form {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-right: 0.5rem;
+  flex: 3;
 }
 
 header span img {
@@ -50,7 +52,8 @@ header span img:hover {
 }
 
 header input {
-  width: 400px;
+  flex: 3;
+  /* width: 400px; */
   height: 40px;
   padding: 0 10px;
   border: none;
@@ -58,8 +61,7 @@ header input {
   color: var(--cyan-900);
 }
 
-header button,
-.temperature {
+header button {
   height: 40px;
   padding: 0 20px;
   background-color: var(--cyan-700);
@@ -68,10 +70,10 @@ header button,
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-wrap: nowrap;
+  flex: 1;
 }
 
-header button:hover,
-.temperature:hover {
+header button:hover {
   background-color: var(--cyan-800);
 }
 
@@ -128,9 +130,10 @@ header button,
   gap: 10px;
   align-items: center;
   color: var(--cyan-700);
+  text-wrap: nowrap;
 }
 
-.values-range::after {
+.sub-info .values-range::after {
   content: "";
   display: inline-block;
   width: 0.5rem;
@@ -281,7 +284,7 @@ header button,
   color: var(--cyan-700);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   body {
     grid-template-columns: 1fr;
   }
@@ -302,6 +305,14 @@ header button,
 
   header input {
     width: 100%;
+  }
+
+  .sub-info {
+    flex-direction: column;
+    justify-self: start;
+  }
+  .sub-info .values-range::after {
+    display: none;
   }
 
   .next-days {

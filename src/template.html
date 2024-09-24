@@ -11,9 +11,8 @@
       </span>
       <form action="post">
         <input type="text" name="city" id="city" placeholder="Enter a city" />
-        <button type="submit">Search</button>
       </form>
-      <button class="temperature">°F/°C</button>
+      <button type="submit" id="submit">Search</button>
     </header>
     <div class="main">
       <div class="main-info">
@@ -29,7 +28,7 @@
           <p>Few Clouds</p>
         </div>
         <span>
-          <img src="assets/sunny-weather.svg" alt="sunny" />
+          <img src="assets/cloudy.svg" alt="Partly Cloudy" />
         </span>
       </div>
     </div>
@@ -89,11 +88,11 @@
       <div class="day one">
         <p>Monday</p>
         <span>
-          <img src="assets/sunny-weather.svg" alt="Sunny" />
+          <img src="assets/sunny.svg" alt="Sunny" />
         </span>
         <p>Sunny</p>
         <div>
-          <p>28°C / 18°C</p>
+          <p class="values-range">28°C / 18°C</p>
         </div>
       </div>
       <div class="day two">
@@ -103,7 +102,7 @@
         </span>
         <p>Partly Cloudy</p>
         <div>
-          <p>26°C / 17°C</p>
+          <p class="values-range">26°C / 17°C</p>
         </div>
       </div>
       <div class="day three">
@@ -113,17 +112,17 @@
         </span>
         <p>Rainy</p>
         <div>
-          <p>22°C / 15°C</p>
+          <p class="values-range">22°C / 15°C</p>
         </div>
       </div>
       <div class="day four">
         <p>Thursday</p>
         <span>
-          <img src="assets/thunderstorm.svg" alt="Thunderstorm" />
+          <img src="assets/stormy.svg" alt="stormy" />
         </span>
-        <p>Thunderstorm</p>
+        <p>stormy</p>
         <div>
-          <p>20°C / 14°C</p>
+          <p class="values-range">20°C / 14°C</p>
         </div>
       </div>
       <div class="day five">
@@ -133,7 +132,7 @@
         </span>
         <p>Cloudy</p>
         <div>
-          <p>23°C / 16°C</p>
+          <p class="values-range">23°C / 16°C</p>
         </div>
       </div>
     </div>
