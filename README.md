@@ -1,6 +1,6 @@
 
 # Weather App
-
+![alt text](readme_images/image-2.png)
 ## Overview
 A simple weather application built with HTML, CSS, and JavaScript. This project was created as a learning exercise to practice front-end web development skills.
 
@@ -10,8 +10,12 @@ A simple weather application built with HTML, CSS, and JavaScript. This project 
 - Simple and intuitive user interface
 
 ## Live Preview
-<!-- You can try the live version of the Matrix Solver at the following link: [Matrix Solver Live Preview](https://matrix-solver-841939063634.us-central1.run.app/) -->
+You can try the live version of the Matrix Solver at the following link: [Weather App Live Preview](https://kingliban.github.io/weather-app/)
 
+
+## Dynamic
+![alt text](readme_images/image-3.png)
+![alt text](readme_images/image-6.png)
 ## Getting Started
 
 ### Prerequisites
