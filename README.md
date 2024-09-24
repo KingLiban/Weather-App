@@ -29,7 +29,7 @@ You can try the live version of the Matrix Solver at the following link: [Weathe
    cd weather-app
    ```
 
-2. Open `index.html` in your web browser.
+2. Open `template.html` in your web browser.
 
 ### Development (Optional)
 If you want to make changes and use webpack:
