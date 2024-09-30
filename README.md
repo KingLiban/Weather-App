@@ -10,7 +10,7 @@ A simple weather application built with HTML, CSS, and JavaScript. This project 
 - Simple and intuitive user interface
 
 ## Live Preview
-You can try the live version of the Matrix Solver at the following link: [Weather App Live Preview](https://kingliban.github.io/weather-app/)
+You can try the live version of the Matrix Solver at the following link: [Weather App Live Preview](https://kingliban.github.io/Weather-App/)
 
 
 ## Dynamic
